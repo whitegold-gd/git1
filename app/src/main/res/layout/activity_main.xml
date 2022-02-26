@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView style="@style/textViewStyle"
+        android:text="@string/vertical" />
+
+    <TextView style="@style/layoutStyleV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:gravity="center"
+        android:text="КАЖДЫЙ"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView style="@style/layoutStyleV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:gravity="center"
+        android:text="ОХОТНИК"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView style="@style/layoutStyleV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        android:gravity="center"
+        android:text="ЖЕЛАЕТ"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView style="@style/layoutStyleV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:gravity="center"
+        android:text="ЗНАТЬ"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView style="@style/layoutStyleV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/azure"
+        android:gravity="center"
+        android:text="ГДЕ"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView style="@style/layoutStyleV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:text="СИДИТ"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView style="@style/layoutStyleV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/violet"
+        android:gravity="center"
+        android:text="ФАЗАН"
+        tools:ignore="TextContrastCheck" />
+
+</TableLayout>

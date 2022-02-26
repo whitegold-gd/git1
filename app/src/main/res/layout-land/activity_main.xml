@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView style="@style/textViewStyle"
+        android:text="@string/horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout style="@style/layoutStyleH"
+            android:background="@color/red" />
+
+        <LinearLayout style="@style/layoutStyleH"
+            android:background="@color/orange" />
+
+        <LinearLayout style="@style/layoutStyleH"
+            android:background="@color/yellow" />
+
+        <LinearLayout style="@style/layoutStyleH"
+            android:background="@color/green" />
+
+        <LinearLayout style="@style/layoutStyleH"
+            android:background="@color/azure" />
+
+        <LinearLayout style="@style/layoutStyleH"
+            android:background="@color/blue" />
+
+        <LinearLayout style="@style/layoutStyleH"
+            android:background="@color/violet" />
+
+    </LinearLayout>
+</LinearLayout>
